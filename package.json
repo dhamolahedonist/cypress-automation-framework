@@ -8,7 +8,7 @@
     "runtests": "npm run test --",
     "triggerAllTests-headless": "npx cypress run",
     "triggerAllTests-headed": "npx cypress open --headed",
-    "triggerAllTests-automation-store": "npx cypress run --headed --spec cypress/e2e/automation-test-store/contact-us.js",
+    "triggerAllTests-automation-store": "npx cypress run --spec cypress/e2e/automation-test-store/contact-us.js",
     "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
     "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
     "delete-result": "rm -rf cypress/results/* || true"
