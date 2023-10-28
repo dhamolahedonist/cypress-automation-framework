@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.484" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-10-18T12:27:12" tests="0" file="cypress\e2e\automation-test-store\alias-invoke.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Alias and Invoke" timestamp="2023-10-18T12:27:12" tests="1" time="12.463" failures="0">
+    <testcase name="Alias and Invoke Calculate total of normal and sale product" time="6.999" classname="Calculate total of normal and sale product">
+    </testcase>
+  </testsuite>
+</testsuites>
