@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="107.680" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-10-28T21:37:58" tests="0" file="cypress\e2e\automation-test-store\contact-us.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test Contact us form via webriverUni" timestamp="2023-10-28T21:37:58" tests="1" time="107.642" failures="1">
+    <testcase name="Test Contact us form via webriverUni should be able to submit a successful submission via Automation test store" time="0.000" classname="should be able to submit a successful submission via Automation test store">
+      <failure message="The following error originated from your application code, not from Cypress.
+
+  &gt; $(...).flexslider is not a function
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="TypeError"><![CDATA[TypeError: The following error originated from your application code, not from Cypress.
+
+  > $(...).flexslider is not a function
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+    at <unknown> (https://automationteststore.com/storefront/view/default/javascript/custom.js:142:19)
+    at dispatch (https://automationteststore.com/storefront/view/default/javascript/jquery-1.12.4.min.js:3:12444)
+    at r.handle (https://automationteststore.com/storefront/view/default/javascript/jquery-1.12.4.min.js:3:9173)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
