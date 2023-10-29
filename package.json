@@ -20,6 +20,7 @@
     "cypress": "^12.5.1"
   },
   "devDependencies": {
+    "cypress-multi-reporters": "^1.6.4",
     "cypress-xpath": "^2.0.1"
   }
 }
