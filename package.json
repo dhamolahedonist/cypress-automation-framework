@@ -9,6 +9,7 @@
     "triggerAllTests-headless": "npx cypress run",
     "triggerAllTests-headed": "npx cypress open --headed",
     "triggerAllTests-automation-store": "npx cypress run --spec cypress/e2e/automation-test-store/contact-us.js",
+    "triggerAllTests-autostore-dashboard": "npx cypress run --spec cypress/e2e/automation-test-store/contact-us.js --record --key 8a6525a6-ee15-45fc-9ea8-28b93b1aa046",
     "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
     "delete-junit-report": "rm -rf cypress/results/junit/results.xml",
     "delete-result": "rm -rf cypress/results/* || true"
